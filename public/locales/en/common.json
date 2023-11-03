@@ -1,0 +1,16 @@
+{
+  "btn_submit": "Submit",
+  "common_create": "Create",
+  "common_error": "Something went wrong",
+  "common_placeholder_input": "Enter",
+  "common_placeholder_input_text": "Your text",
+  "common_placeholder_select": "Select",
+  "error_app_go_home": "Go back home",
+  "error_app_message": "Oops, something get wrong. \n\nTry to refresh this page or feel free to contact us if the problem persists.",
+  "error_app_title": "Server error",
+  "error_not_found_go_back": "Go back",
+  "error_not_found_go_home": "Go home",
+  "error_not_found_message": "Uh oh, we can’t seem to find the page you’re looking for. Try going back to the previous page or go to the main page.",
+  "error_not_found_title": "Not Found",
+  "lorem": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor et dolore magna aliquyam erat, sed diam voluptua."
+}

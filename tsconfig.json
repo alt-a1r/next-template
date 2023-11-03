@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/config/*": ["./config/*"],
+      "@/store": ["./store"],
+      "@/models/*": ["./models/*"],
+      "@/modules/*": ["./modules/*"],
+      "@/ui": ["./shared/ui"],
+      "@/icons": ["./shared/icons"],
+      "@/utils": ["./shared/utils"],
+      "@/types": ["./shared/types"],
+      "@/hooks": ["./shared/hooks"],
+      "@/theme": ["./shared/theme"],
+      "@/components": ["./shared/components"],
+      "@/constants/*": ["./shared/constants/*"],
+      "@/testIds": ["./shared/testIds"],
+      "@/api": ["./api"],
+      "@/mocks/*": ["./__mocks__/*"],
+      "@/tests/*": ["./__tests__/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}
